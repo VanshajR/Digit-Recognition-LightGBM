@@ -8,8 +8,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 from PIL import Image
+import warnings
 
-st.set_option('deprecation.showPyplotGlobalUse', False)
+warnings.filterwarnings("ignore", category=UserWarning, module="matplotlib")
 # Load pre-trained model
 model = joblib.load("digit_recognition_model.pkl")
 
