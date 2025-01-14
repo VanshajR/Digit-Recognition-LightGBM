@@ -7,4 +7,3 @@ matplotlib
 seaborn
 pillow
 joblib
-warnings
