@@ -5,6 +5,8 @@ This project implements a machine learning model for handwritten digit recogniti
 
 Hosted on Streamlit: 
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://vanshajr-digit-recognition-lightgbm-app-99enas.streamlit.app/)
+
 ## LightGBM Overview
 
 LightGBM (Light Gradient Boosting Machine) is a powerful, efficient, and scalable implementation of gradient boosting developed by Microsoft. It is widely used in machine learning tasks, especially for classification and regression problems, due to its speed and memory efficiency, making it ideal for large datasets. Below is a brief overview of its key features and advantages:
