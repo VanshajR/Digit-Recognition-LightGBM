@@ -18,7 +18,7 @@ LightGBM (Light Gradient Boosting Machine) is a powerful, efficient, and scalabl
 - Histogram-based Training: It uses histograms to discretize continuous feature values, significantly speeding up the training process and reducing memory consumption.
 - Categorical Feature Handling: LightGBM has built-in support for categorical features, so they don't need to be manually encoded.
 - Scalability & Parallel Training: LightGBM can efficiently scale across large datasets by training in parallel across multiple cores or even using GPUs, reducing training time considerably.
-- Early Stopping: The model includes early stopping capabilities to prevent overfitting by halting training if the model performance on a validation set ceases to improve.
+- Early Stopping: The model includes early stopping capabilities to prevent overfitting by halting training if the model performance on a validation set ceases to improve over iterations.
 
 ### Advantages of LightGBM:
 
